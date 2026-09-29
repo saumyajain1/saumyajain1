@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="24" viewBox="0 0 78 24" role="img" aria-labelledby="title">
+  <title id="title">Graider</title>
+  <style>
+    text { fill: #0969da; text-decoration: underline; }
+    .ai { fill: #8250df; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #58a6ff; }
+      .ai { fill: #bc9cff; }
+    }
+  </style>
+  <text x="0" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="600">Gr<tspan class="ai">ai</tspan>der</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="56" viewBox="0 0 360 56" role="img" aria-labelledby="title description">
+  <title id="title">Hi, I'm Saumya.</title>
+  <desc id="description">The greeting types once, then remains visible.</desc>
+  <style>
+    .greeting { fill: #0969da; }
+    .reveal { animation: type 1.8s steps(15, end) 0.25s both; }
+    .cursor-track { animation: move 1.8s steps(15, end) 0.25s both; }
+    .cursor { fill: #0969da; animation: blink 0.8s step-end 6 forwards; }
+
+    @keyframes type {
+      from { width: 0; }
+      to { width: 270px; }
+    }
+    @keyframes move {
+      from { transform: translateX(0); }
+      to { transform: translateX(270px); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .greeting, .cursor { fill: #79c0ff; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .reveal, .cursor-track, .cursor { animation: none; }
+      .cursor { opacity: 0; }
+    }
+  </style>
+  <defs>
+    <clipPath id="typing-clip" clipPathUnits="userSpaceOnUse">
+      <rect class="reveal" x="2" y="0" width="270" height="56" />
+    </clipPath>
+  </defs>
+  <text class="greeting" x="2" y="39" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30" font-weight="600" textLength="270" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing-clip)">Hi, I'm Saumya.</text>
+  <g class="cursor-track">
+    <rect class="cursor" x="4" y="13" width="2" height="31" rx="1" />
+  </g>
+</svg>
