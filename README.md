@@ -2,13 +2,15 @@
   <img src="./assets/hello.svg" alt="Hi, I'm Saumya." width="360" height="56" />
 </h1>
 
-I'm a recent graduate from the **University of British Columbia**, where I studied **Computer Science and Statistics**. I've worked on backend services and debugging tools at **D-Wave**, computational chemistry research software at **UBC**, and algorithmic trading projects at **QuantInsti**. I also spent two years as a teaching assistant for data science and statistics.
+I'm a recent graduate from the **University of British Columbia**, where I studied **Computer Science and Statistics**.
 
-My main interests are **backend and distributed systems, applied AI, and statistical modelling**. I especially enjoy the design and architecture side of a project: figuring out how the pieces should fit together and thinking through the trade-offs along the way.
+At **D-Wave**, I designed and implemented API deprecation messaging and built automated debugging pipelines for hybrid quantum solvers. At **UBC**, I led the backend design and implementation of **MolMaker**, including cluster job orchestration, access control, and failure recovery. I've also worked on algorithmic trading projects at **QuantInsti** and spent two years as a teaching assistant for data science and statistics.
+
+My main interests are **backend and distributed systems, applied AI, machine learning, and statistical modelling**. I especially enjoy the design and architecture side of a project: figuring out how the pieces should fit together and thinking through the trade-offs along the way.
 
 [LinkedIn](https://www.linkedin.com/in/saumya-jain-1089a5206/) · [All repositories](https://github.com/saumyajain1?tab=repositories)
 
-## AI & machine learning
+## Software engineering
 
 <table>
 <tr>
@@ -23,49 +25,16 @@ An AI-assisted grading app inspired by my experience as a TA. Teachers can gener
 </td>
 <td width="50%" valign="top">
 
-### [MNIST Digit Classifier](https://github.com/saumyajain1/pytorch_NeuralNet_Mnist)
-
-A small neural network for recognising handwritten digits. An exploration of the PyTorch workflow, from training a model to evaluating its predictions.
-
-<sub>Python · PyTorch · Neural networks</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [Trading Alphas](https://github.com/saumyajain1/Trading_Alphas_Capstone)
-
-Commodity trading strategies, including machine learning signals, combined into a portfolio and evaluated through backtesting against a benchmark.
-
-<sub>Python · Machine learning · Backtesting</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### [Pulsar Classification](https://github.com/FRANKWHOEE/PULSAR)
-
-A group project that uses k-nearest neighbours to classify pulsar candidates, with feature selection and cross-validation to evaluate the model.
-
-<sub>R · Classification · Cross-validation</sub>
-
-</td>
-</tr>
-</table>
-
-## Software engineering
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
 ### [MolMaker](https://github.com/UBCC3/molmaker_backend)
 
 Research software for running molecular calculations on compute clusters. My backend contributions focused on job orchestration, permissions, failure recovery, and testing.
 
-<sub>Python · FastAPI · PostgreSQL · Slurm</sub>
+<sub>Python · FastAPI · PostgreSQL · Slurm</sub><br>
+<sub><a href="https://orcinus.westgrid.ca/ubchemica/chemica_studio/">Visit website ↗</a></sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [InsightUBC](https://github.com/saumyajain1/InsightUBC)
@@ -75,8 +44,6 @@ A query engine and web app for exploring UBC course and room data, with a custom
 <sub>TypeScript · Node.js · REST APIs · Mocha</sub>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Exoplanet Explorer](https://github.com/saumyajain1/ExoplanetExplorerSystem)
@@ -86,6 +53,8 @@ A relational database and web interface for exploring planets, host stars, space
 <sub>SQL · Oracle · PHP · Database design</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Flight Management System](https://github.com/saumyajain1/Flight_Management_System)
@@ -95,13 +64,32 @@ A desktop app for scheduling flights, updating their status, and saving flight r
 <sub>Java · Swing · JUnit · JSON</sub>
 
 </td>
+<td width="50%" valign="top">
+
+### [React To-Do List](https://github.com/saumyajain1/react-todo-list)
+
+A small task manager built to explore React components, hooks, and local data persistence.
+
+<sub>JavaScript · React · Vite</sub>
+
+</td>
 </tr>
 </table>
 
-## Statistics & data science
+## Machine learning, statistics & data science
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### [K2VAE Reproducibility Report](https://github.com/saumyajain1/k2vae-reproducibility-report)
+
+A reproducibility project on K2VAE for probabilistic time-series forecasting, with component ablations and comparisons of forecast quality, runtime, and memory.
+
+<sub>Python · PyTorch · Probabilistic forecasting</sub><br>
+<sub>Private repository · Access required</sub>
+
+</td>
 <td width="50%" valign="top">
 
 ### [Powerlifting Bayesian Inference](https://github.com/saumyajain1/Powerlifting_Bayesian_Inference)
@@ -111,6 +99,8 @@ A Bayesian study of how strength gains change with bodyweight, using nonlinear m
 <sub>R · Stan · Bayesian modelling</sub>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Gold Futures Forecasting](https://github.com/saumyajain1/gold-futures-forecasting)
@@ -118,6 +108,35 @@ A Bayesian study of how strength gains change with bodyweight, using nonlinear m
 A comparison of time-series models for forecasting gold prices, testing whether market indicators improve predictions over a simple baseline. The baseline proved surprisingly competitive.
 
 <sub>R · ARIMA / ARIMAX · Exponential smoothing</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [Trading Alphas](https://github.com/saumyajain1/Trading_Alphas_Capstone)
+
+Commodity trading strategies, including machine learning signals, combined into a portfolio and evaluated through backtesting against a benchmark.
+
+<sub>Python · Machine learning · Backtesting</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [MNIST Digit Classifier](https://github.com/saumyajain1/pytorch_NeuralNet_Mnist)
+
+A small neural network for recognising handwritten digits. An exploration of the PyTorch workflow, from training a model to evaluating its predictions.
+
+<sub>Python · PyTorch · Neural networks</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### [Pulsar Classification](https://github.com/FRANKWHOEE/PULSAR)
+
+A group project that uses k-nearest neighbours to classify pulsar candidates, with feature selection and cross-validation to evaluate the model.
+
+<sub>R · Classification · Cross-validation</sub>
 
 </td>
 </tr>
@@ -142,12 +161,3 @@ A group analysis of how theft patterns differed before and during the pandemic, 
 </td>
 </tr>
 </table>
-
-<details>
-<summary><strong>Earlier projects & experiments</strong></summary>
-
-- **[React To-Do List](https://github.com/saumyajain1/react-todo-list)** — A small task manager built to explore React components, hooks, and local data persistence.
-- **[Eat Right](https://github.com/saumyajain1/NWHacks2023)** — An nwHacks 2023 prototype exploring user accounts and personalised meal suggestions.
-- **[Walmart Sales Analysis](https://github.com/saumyajain1/Walmart_Sales_Analysis)** — SQL practice using retail data to explore revenue, product performance, and sales patterns.
-
-</details>
